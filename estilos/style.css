@@ -3,6 +3,14 @@
     font-size: 16px;
 }
 
+@media (max-width: 560px) {
+    .principal {width: 100%;}
+}
+
+@media (min-width: 306px) {
+    .imagemcv {width: 300px;}
+}
+
 body {
     background-color: #acacff;
 
@@ -43,4 +51,8 @@ a:hover {
 
 abbr {
     text-decoration: none;
+}
+
+.imagemcv {
+   width: 250px;
 }
