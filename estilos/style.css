@@ -1,6 +1,10 @@
+@charset "UTF-8";
+
 * {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
+    margin: 0px;
+    padding: 0px;
 }
 
 @media (max-width: 560px) {
@@ -11,9 +15,12 @@
     .imagemcv {width: 300px;}
 }
 
+@media (max-width: 560px) {
+    .video {width: 100%;}
+}
+
 body {
     background-color: #acacff;
-
 }
 
 main {
@@ -24,28 +31,44 @@ main {
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
 }
 
+.principal1 {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+p {
+    text-indent: 25px;
+    text-align: justify;
+    margin: 10px 5px;
+}
+
 h1 {
     font-size: 2em;
     color: rgb(58, 0, 112);
+    margin: 10px;
 }
 
 h2 {
     font-size: 1.5em;
     color: rgb(58, 0, 112);
+    margin: 10px;
 }
 
 img.lado {
     float: right;
+    margin: 0px 15px;   
 }
 
 a {
+    display: block;
+    margin: 10px;
     text-decoration: none;
     font-weight: bold;
     color: rgb(58, 0, 112);
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
     color: rgb(26, 26, 255);
 }
 
